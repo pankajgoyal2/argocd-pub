@@ -4,7 +4,7 @@ metadata:
   name: ubuntu
 spec:
   containers:
-  - name: ubuntu
-    image: ubuntu
+  - name: apache
+    image: httpd:2.4.56
     ports:
     - containerPort: 80
