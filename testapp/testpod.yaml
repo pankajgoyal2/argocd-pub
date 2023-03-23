@@ -5,6 +5,6 @@ metadata:
 spec:
   containers:
   - name: webserver
-    image: nginx
+    image: nginx:stable-alpine-perl
     ports:
     - containerPort: 80
