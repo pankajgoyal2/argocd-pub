@@ -5,6 +5,6 @@ metadata:
 spec:
   containers:
   - name: apache
-    image: nginx:stable-alpine-perl
+    image: nginx:latest
     ports:
     - containerPort: 80
